@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Modern Music Player</title>
+
+    <!-- GOOGLE FONT -->
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+    <!-- MAIN PLAYER -->
+
+    <div class="music-player">
+
+        <!-- SONG IMAGE -->
+
+        <div class="cover">
+
+            <img id="cover"
+                src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80"
+                alt="Song Cover">
+
+        </div>
+
+        <!-- SONG DETAILS -->
+
+        <div class="song-info">
+
+            <h2 id="title">
+                Night Vibes
+            </h2>
+
+            <p id="artist">
+                Dream Audio
+            </p>
+
+        </div>
+
+        <!-- PROGRESS BAR -->
+
+        <div class="progress-container"
+            id="progress-container">
+
+            <div class="progress"
+                id="progress">
+
+            </div>
+
+        </div>
+
+        <!-- TIME -->
+
+        <div class="time">
+
+            <span id="current-time">
+                0:00
+            </span>
+
+            <span id="duration">
+                0:00
+            </span>
+
+        </div>
+
+        <!-- CONTROLS -->
+
+        <div class="controls">
+
+            <button id="prev">
+                ⏮
+            </button>
+
+            <button id="play">
+                ▶
+            </button>
+
+            <button id="next">
+                ⏭
+            </button>
+
+        </div>
+
+        <!-- VOLUME -->
+
+        <div class="volume-container">
+
+            <span>
+                🔊
+            </span>
+
+            <input type="range"
+                id="volume"
+                min="0"
+                max="1"
+                step="0.01"
+                value="1">
+
+        </div>
+
+        <!-- PLAYLIST -->
+
+        <div class="playlist"
+            id="playlist">
+
+        </div>
+
+    </div>
+
+    <!-- AUDIO -->
+
+    <audio id="audio"></audio>
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
