@@ -3,6 +3,17 @@
 ========================= */
 
 const songs = [
+        {
+        title:"Faded",
+        artist:"Alan Walker",
+
+        src:
+        "https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0c6ff1b10.mp3?filename=faded-style-future-bass-117997.mp3",
+
+        cover:
+        "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=900&q=80"
+    },
+
 
     {
         title:"Night Vibes",
